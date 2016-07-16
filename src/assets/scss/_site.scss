@@ -120,7 +120,7 @@ header {
 }
 
 .stage.mzo {
-    background: url('../img/screen-5.jpg') no-repeat 50% 50% fixed;
+    background: url('../img/screen-5B.jpg') no-repeat 50% 50% fixed;
     background-size: cover;
     img {
         width: 60%;
@@ -135,8 +135,15 @@ header {
         float: right;
         margin-right: 8%;
     }
+    img.main2 {
+        width: 100%;
+    }
 }
 
+.stage.mzo2 {
+    background: url('../img/screen-5.jpg') no-repeat 50% 50% fixed;
+    background-size: cover;
+} 
 .stage.ncu {
     background: url('../img/screen-6.jpg') no-repeat 0 0;
     background-size: cover;
