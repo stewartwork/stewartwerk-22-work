@@ -127,6 +127,13 @@ header {
     }
     img.desk {
         width: 45%;
+        float: left;
+        margin-left: 8%;
+    }
+    img.phone {
+        width: 29.1%;
+        float: right;
+        margin-right: 8%;
     }
 }
 
