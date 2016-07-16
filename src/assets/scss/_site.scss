@@ -138,6 +138,18 @@ header {
     }
 }
 
+.stage.about {
+    background: url('../img/aboutHero.jpg') no-repeat 0 0;
+    background-size: cover;
+    .row {
+        h5 {
+            font-family: 'Roboto', sans-serif;
+            padding:150px 50px 90px 50px;
+            color: #fff;
+        }
+    }
+}
+
 .copy {
     background: #fff;
     padding: 60px 50px;
@@ -151,6 +163,9 @@ header {
     }
     p {
         font-weight: 100;
+    }
+    p.date {
+        color: #999;
     }
     .small-12.medium-9.large-9.columns {
         p {
@@ -166,6 +181,10 @@ header {
             padding: 0;
             margin: 0;
         }
+    }
+    .row.work {
+        text-align: center;
+        padding:60px;
     }
 }
 
