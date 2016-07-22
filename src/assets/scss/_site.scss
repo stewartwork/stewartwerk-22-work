@@ -202,6 +202,28 @@ header {
     }
 }
 
+footer {
+    height: 40px;
+    background: #111;
+    text-align: center;
+    p {
+        line-height: 40px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+        color: #9B9B9B;
+        letter-spacing: 1px;
+        margin: 0;
+        a {
+            color: #eee;
+            &:hover {
+                color: #666;
+            }
+        }
+    }
+}
+
 @media (min-width:0) and (max-width:800px) {
     header {
         padding-right: 15px;
